@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DuniaExpress – Everything You Need, Just One Click Away | Coming Soon</title>
+  
+  <!-- Meta Descriptions & SEO -->
+  <meta name="description" content="DuniaExpress is your upcoming all-in-one digital platform for E-Commerce, Free Fire Diamond Top-Up, Mobile Recharge, and next-gen Digital Services. We are launching soon!">
+  <meta name="theme-color" content="#050814">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="logo/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="logo/favicon.ico">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+</head>
+<body>
+
+  <!-- Ambient Visuals: Glowing Atmospheric Orbs & Cyber Grid -->
+  <div class="ambient-background" aria-hidden="true">
+    <div class="ambient-grid"></div>
+    <div class="glow-orb glow-orb-1"></div>
+    <div class="glow-orb glow-orb-2"></div>
+    <div class="glow-orb glow-orb-3"></div>
+    
+    <!-- Floating Abstract Geometric Shapes -->
+    <div class="floating-shapes">
+      <div class="floating-shape shape-1"></div>
+      <div class="floating-shape shape-2"></div>
+      <div class="floating-shape shape-3"></div>
+      <div class="floating-shape shape-4"></div>
+    </div>
+  </div>
+
+  <!-- Interactive Cursor Spotlight -->
+  <div class="cursor-spotlight" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <!-- Brand Logo / Identity -->
+      <a href="#" class="brand-link" aria-label="DuniaExpress Home">
+        <img 
+          src="logo/dunia-express-logo.png" 
+          alt="DuniaExpress" 
+          class="brand-logo-img" 
+          onerror="this.style.display='none'; document.getElementById('brandFallback').style.display='flex';"
+        >
+        <!-- Crisp SVG / Typography Fallback if image path differs -->
+        <div id="brandFallback" class="brand-text-wrapper" style="display: none;">
+          <span class="brand-title">DUNIA<span class="red-accent">EXPRESS</span></span>
+          <span class="brand-tagline">DIGITAL SERVICES PLATFORM</span>
+        </div>
+      </a>
+
+      <!-- Status Indicator in Navbar -->
+      <div class="header-status" role="status" aria-live="polite">
+        <span class="pulse-dot" aria-hidden="true"></span>
+        <span>Launching Soon</span>
+      </div>
+
+      <!-- Action Button -->
+      <div class="header-actions">
+        <a href="#notify" class="nav-link-btn">
+          <i data-lucide="bell" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></i>
+          <span>Get Notified</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero" aria-labelledby="heroHeadline">
+      <div class="container hero-content">
+        
+        <!-- Status Badges & Launch Highlight -->
+        <div class="hero-badges-wrapper">
+          <div class="launching-pill" role="status">
+            <span class="pill-dot" aria-hidden="true"></span>
+            <span class="pill-text">Launching Soon</span>
+          </div>
+
+          <!-- Highlight text: "We're Coming Soon." -->
+          <div class="coming-soon-highlight">
+            <i data-lucide="sparkles" class="sparkle-icon" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/><path d="M18 6h-2v2"/><path d="M4 18h2v2"/></svg></i>
+            <span>We're Coming Soon.</span>
+          </div>
+        </div>
+
+        <!-- Main Headline -->
+        <h1 class="hero-headline" id="heroHeadline">
+          Everything You Need,<br>
+          <span class="gradient-text">Just One Click Away!</span>
+        </h1>
+
+        <!-- Supporting Text -->
+        <p class="hero-subtext">
+          A smarter way to shop, recharge and enjoy your digital world. Something amazing is on its way!
+        </p>
+
+        <!-- VIP Launch Notification Alert Form -->
+        <div class="notify-form-container" id="notify">
+          <form class="notify-form" id="notifyForm" aria-label="Early launch access email notification form">
+            <div class="notify-input-icon" aria-hidden="true">
+              <i data-lucide="mail"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></i>
+            </div>
+            <input 
+              type="email" 
+              class="notify-input" 
+              id="notifyEmail" 
+              name="email" 
+              placeholder="Enter your email address to get notified..." 
+              required 
+              aria-label="Email address for launch notification"
+              autocomplete="email"
+            >
+            <button type="submit" class="notify-submit-btn">
+              <span>Notify Me</span>
+              <i data-lucide="arrow-right" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></i>
+            </button>
+          </form>
+
+          <div id="notifyError" class="notify-error-text" style="display:none; color: #f87171; font-size: 0.85rem; margin-top: 8px;" role="alert"></div>
+
+          <!-- Success Notification Banner -->
+          <div class="notify-success-state" id="notifySuccess" role="alert">
+            <i data-lucide="check-circle-2" style="color: #34d399;" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></i>
+            <div>
+              <strong>You're on the priority list!</strong> We will send you an exclusive notification the moment DuniaExpress officially launches.
+            </div>
+          </div>
+
+          <div class="notify-note" style="margin-top: 14px;">
+            <i data-lucide="shield-check" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></i>
+            <span>No spam, guaranteed. Only critical launch updates and early access news.</span>
+          </div>
+        </div>
+
+        <!-- Micro Feature Highlights Strip -->
+        <div class="features-strip" aria-label="Core platform strengths">
+          <div class="feature-pill">
+            <div class="feature-pill-icon blue" aria-hidden="true">
+              <i data-lucide="zap"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></i>
+            </div>
+            <div>
+              <div class="feature-pill-text">Lightning Speed</div>
+              <div class="feature-pill-sub">Instant digital processing</div>
+            </div>
+          </div>
+
+          <div class="feature-pill">
+            <div class="feature-pill-icon purple" aria-hidden="true">
+              <i data-lucide="shield-check"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></i>
+            </div>
+            <div>
+              <div class="feature-pill-text">100% Secure</div>
+              <div class="feature-pill-sub">Protected transactions</div>
+            </div>
+          </div>
+
+          <div class="feature-pill">
+            <div class="feature-pill-icon cyan" aria-hidden="true">
+              <i data-lucide="layers"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg></i>
+            </div>
+            <div>
+              <div class="feature-pill-text">All-in-One Platform</div>
+              <div class="feature-pill-sub">Every digital essential</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Business Services Section -->
+    <section class="services-section" id="services" aria-labelledby="servicesHeadline">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">What DuniaExpress Delivers</span>
+          <h2 class="section-title" id="servicesHeadline">Our Core Digital Services</h2>
+          <p class="section-description">
+            Designed to bring seamless convenience, unmatched speed, and reliability to your everyday digital lifestyle.
+          </p>
+        </div>
+
+        <!-- 4 Core Service Cards -->
+        <div class="services-grid">
+
+          <!-- 1. E-Commerce Card -->
+          <article class="service-card card-ecommerce" aria-labelledby="serviceEcommerceTitle">
+            <div class="card-glow-bar" aria-hidden="true"></div>
+            <div>
+              <div class="card-top">
+                <div class="service-icon-box" aria-hidden="true">
+                  <i data-lucide="shopping-bag"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg></i>
+                </div>
+                <div class="card-badge">
+                  <span class="badge-dot" aria-hidden="true"></span>
+                  <span>Core Service</span>
+                </div>
+              </div>
+
+              <h3 class="service-title" id="serviceEcommerceTitle">E-Commerce</h3>
+              <span class="service-category">Online Shopping & Product Purchasing</span>
+              <p class="service-desc">
+                Experience a modern online shopping destination offering carefully curated products, high quality standards, reliable logistics, and a frictionless checkout process built for today’s consumers.
+              </p>
+
+              <ul class="service-features-list" aria-label="E-Commerce Key Features">
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Curated multi-category product selection</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Fast, reliable doorstep delivery</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Verified sellers & genuine product quality</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-bottom">
+              <span class="card-status-label">Availability</span>
+              <div class="card-action-indicator">
+                <span>Coming at Launch</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></i>
+              </div>
+            </div>
+          </article>
+
+          <!-- 2. Free Fire Diamond Top-Up Card -->
+          <article class="service-card card-gaming" aria-labelledby="serviceGamingTitle">
+            <div class="card-glow-bar" aria-hidden="true"></div>
+            <div>
+              <div class="card-top">
+                <div class="service-icon-box" aria-hidden="true">
+                  <i data-lucide="diamond"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.7 10.3a2.41 2.41 0 0 0 0 3.41l7.59 7.59a2.41 2.41 0 0 0 3.41 0l7.59-7.59a2.41 2.41 0 0 0 0-3.41l-7.59-7.59a2.41 2.41 0 0 0-3.41 0Z"/></svg></i>
+                </div>
+                <div class="card-badge">
+                  <span class="badge-dot" aria-hidden="true"></span>
+                  <span>Gaming Services</span>
+                </div>
+              </div>
+
+              <h3 class="service-title" id="serviceGamingTitle">Free Fire Diamond Top-Up</h3>
+              <span class="service-category">Digital Game Diamond Top-Up Services</span>
+              <p class="service-desc">
+                Power up your gameplay instantly with trusted and safe Free Fire diamond recharges. Seamless top-ups delivered in real time directly to your in-game Player ID with competitive market rates.
+              </p>
+
+              <ul class="service-features-list" aria-label="Free Fire Diamond Top-Up Features">
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Instant delivery via Player ID</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>100% authorized & account-safe channels</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>24/7 automated instant processing</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-bottom">
+              <span class="card-status-label">Availability</span>
+              <div class="card-action-indicator">
+                <span>Coming at Launch</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></i>
+              </div>
+            </div>
+          </article>
+
+          <!-- 3. Mobile Recharge Card -->
+          <article class="service-card card-recharge" aria-labelledby="serviceRechargeTitle">
+            <div class="card-glow-bar" aria-hidden="true"></div>
+            <div>
+              <div class="card-top">
+                <div class="service-icon-box" aria-hidden="true">
+                  <i data-lucide="smartphone"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"/><path d="M12 18h.01"/></svg></i>
+                </div>
+                <div class="card-badge">
+                  <span class="badge-dot" aria-hidden="true"></span>
+                  <span>Telecommunication</span>
+                </div>
+              </div>
+
+              <h3 class="service-title" id="serviceRechargeTitle">Mobile Recharge</h3>
+              <span class="service-category">Mobile Balance & Telecom Packs</span>
+              <p class="service-desc">
+                Keep your phone connected effortlessly. Top up prepaid or postpaid mobile balances, activate internet bundles, voice minutes, and special operator packages across all major carriers in seconds.
+              </p>
+
+              <ul class="service-features-list" aria-label="Mobile Recharge Features">
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Supports all major telecom operators</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Data bundles, minutes & combo packs</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Real-time instant balance confirmation</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-bottom">
+              <span class="card-status-label">Availability</span>
+              <div class="card-action-indicator">
+                <span>Coming at Launch</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></i>
+              </div>
+            </div>
+          </article>
+
+          <!-- 4. Digital Services Card -->
+          <article class="service-card card-digital" aria-labelledby="serviceDigitalTitle">
+            <div class="card-glow-bar" aria-hidden="true"></div>
+            <div>
+              <div class="card-top">
+                <div class="service-icon-box" aria-hidden="true">
+                  <i data-lucide="sparkles"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/><path d="M18 6h-2v2"/><path d="M4 18h2v2"/></svg></i>
+                </div>
+                <div class="card-badge">
+                  <span class="badge-dot" aria-hidden="true"></span>
+                  <span>Next-Gen Ecosystem</span>
+                </div>
+              </div>
+
+              <h3 class="service-title" id="serviceDigitalTitle">Digital Services</h3>
+              <span class="service-category">Expanding Future Digital Solutions</span>
+              <p class="service-desc">
+                An evolving suite of modern digital utilities, gift cards, virtual passes, and streaming subscriptions designed to expand continuously and cater to all your upcoming digital lifestyle requirements.
+              </p>
+
+              <ul class="service-features-list" aria-label="Digital Services Features">
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Digital gift vouchers & software licenses</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Streaming & entertainment subscriptions</span>
+                </li>
+                <li class="service-feature-item">
+                  <span class="feature-check-icon" aria-hidden="true"><i data-lucide="check"><svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></i></span>
+                  <span>Continuous rollout of new digital tools</span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="card-bottom">
+              <span class="card-status-label">Availability</span>
+              <div class="card-action-indicator">
+                <span>In Development</span>
+                <i data-lucide="arrow-up-right" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></i>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Vision Section -->
+    <section class="vision-section" aria-labelledby="visionHeadline">
+      <div class="container">
+        <div class="vision-card">
+          <div class="vision-inner">
+            <div>
+              <span class="section-tag">A Vision For Better Digital Living</span>
+              <h2 class="vision-title" id="visionHeadline">Engineered For Ease, Speed & Reliability</h2>
+              <p class="vision-text">
+                DuniaExpress is built from the ground up to eliminate fragmentation in digital services. Instead of juggling multiple apps, our platform brings your shopping, gaming, telecommunications, and digital solutions together into one cohesive, beautifully designed interface.
+              </p>
+            </div>
+
+            <div class="vision-stats-box">
+              <div class="vision-stat-item">
+                <div class="vision-stat-icon" aria-hidden="true">
+                  <i data-lucide="zap"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg></i>
+                </div>
+                <div class="vision-stat-content">
+                  <h4>Frictionless Experience</h4>
+                  <p>Fast navigation, quick actions, zero clutter.</p>
+                </div>
+              </div>
+
+              <div class="vision-stat-item">
+                <div class="vision-stat-icon" aria-hidden="true">
+                  <i data-lucide="shield-check"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg></i>
+                </div>
+                <div class="vision-stat-content">
+                  <h4>Transparent & Reliable</h4>
+                  <p>Safety, privacy, and dependable customer trust.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="logo/dunia-express-logo.png" alt="DuniaExpress Logo" class="footer-brand-logo">
+          <p class="footer-description">
+            Everything you need, just one click away. DuniaExpress is your comprehensive digital commerce, recharge, and gaming service platform.
+          </p>
+        </div>
+
+        <div class="footer-status-box">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span class="footer-status-text">Platform Status: Active Development • Launching Soon</span>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="copyright-text">
+          DuniaExpress &copy; 2026. All Rights Reserved.
+        </div>
+        <div>
+          <span>Designed with precision &bull; Digital Commerce Platform</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+
