@@ -94,3 +94,4 @@ console.log('✓ All images, icons, and stylesheets are present.');
 console.log('✓ Ready for instant Vercel deployment.');
 console.log('--------------------------------------------------');
 process.exit(0);
+
